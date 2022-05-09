@@ -73,11 +73,11 @@ export default class Index
                 <div class="main-box">
                     <h1>React - AllList PLUS</h1>
                     <div class="form">
-                        <label>ID </label>
+                        <label >ID: </label>
                         <br />  
                         <input type="text" value={this.state.id} onChange={(e) => this.setState({ id: e.target.value })}/>
                         <br />
-                        <label>Task </label>
+                        <label>Task: </label>
                         <br />
                         <input type="text" value={this.state.task} onChange={(e) => this.setState({ task: e.target.value })}/>
                         <button type="button" onClick={() => this.add()}>Add</button>
@@ -91,11 +91,12 @@ export default class Index
 
                     <br />
                     <br />
-                    <table>
+                </div>
+                    <table class="list-search">
                         {
                             this.state.tasks.map(i => { return (
                                 <tr>
-                                    <td>{i}</td>
+                                    <td class="task-search">{i}</td>
                                     <td>
                                         <button type="button" onClick={() => this.delete(i)}>Delete</button>
                                     </td>
@@ -106,7 +107,6 @@ export default class Index
                             )})
                         }
                     </table>
-                </div>
             </>
         return saida;
     }

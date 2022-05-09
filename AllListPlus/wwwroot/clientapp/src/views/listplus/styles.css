@@ -6,7 +6,6 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
-    color: white;
 }
 
 body {
@@ -17,20 +16,56 @@ body {
     background: rgba(8,7,12,255);
 }
 
+h1 {
+    text-align: center;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.task-search {
+    color: white;
+}
+
 .main-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     align-content: center;
-    /*
-    justify-content: center;
-    align-items: center;
-    align-content: center;*/
     flex-wrap: wrap;
+    height: 23em;
+    width: 45em;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(255, 255, 255, 0.25);
+    margin-top: 20%;
+    margin-left: 22%;
+    padding-top: 30px;
 }
 
 .form {
     display: flex;
     flex-direction: row;
+}
+
+button {
+    background-color: rgba(8,7,12,255);
+    border: 2px solid white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    size: 100px;
+    color: white;
+}
+
+button-style:houver {
+    background-color: rgba(33,32,36,255);
+}
+
+.list-search {
+    display: flex;
 }
