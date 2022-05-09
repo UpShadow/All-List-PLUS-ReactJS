@@ -19,6 +19,7 @@ body {
 h1 {
     text-align: center;
     color: white;
+    padding-bottom: 20px;
 }
 
 label {
@@ -35,7 +36,7 @@ label {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    height: 23em;
+    height: 22em;
     width: 45em;
     border-style: solid;
     border-radius: 20px;
@@ -50,6 +51,8 @@ label {
 .form {
     display: flex;
     flex-direction: row;
+    padding-bottom: 25px;
+    gap: 10px;
 }
 
 button {
@@ -70,4 +73,10 @@ button-style:houver {
 
 .list-search {
     display: flex;
+    flex-direction: column;
+}
+
+.search-input {
+    width: 100%;
+    margin: 8px 0;
 }

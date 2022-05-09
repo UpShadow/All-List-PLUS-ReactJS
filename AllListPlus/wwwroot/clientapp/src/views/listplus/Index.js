@@ -73,20 +73,16 @@ export default class Index
                 <div class="main-box">
                     <h1>React - AllList PLUS</h1>
                     <div class="form">
-                        <label >ID: </label>
-                        <br />  
-                        <input type="text" value={this.state.id} onChange={(e) => this.setState({ id: e.target.value })}/>
-                        <br />
-                        <label>Task: </label>
-                        <br />
-                        <input type="text" value={this.state.task} onChange={(e) => this.setState({ task: e.target.value })}/>
+                        
+                        <input type="text" placeholder="ID here" value={this.state.id} onChange={(e) => this.setState({ id: e.target.value })}/>
+                        
+                        <input type="text"  placeholder="Task here" value={this.state.task} onChange={(e) => this.setState({ task: e.target.value })}/>
                         <button type="button" onClick={() => this.add()}>Add</button>
                     </div>
                     <br />
-                    <br />
-                    <label>Search </label>
-                    <br />
-                    <input type="text" value={this.state.filter} onChange={(e) => this.setState({ filter: e.target.value })}/>
+                    <div>
+                        <input class="search-input" placeholder="Type task here to search" type="text" value={this.state.filter} onChange={(e) => this.setState({ filter: e.target.value })}/>
+                    </div>            
                     <button type="button" onClick={() => this.search()}>Search</button>
 
                     <br />
@@ -98,10 +94,10 @@ export default class Index
                                 <tr>
                                     <td class="task-search">{i}</td>
                                     <td>
-                                        <button type="button" onClick={() => this.delete(i)}>Delete</button>
+                                        <button class="search-button-delete" type="button" onClick={() => this.delete(i)}>Delete</button>
                                     </td>
                                     <td>
-                                        <button type="button" onClick={() => this.edit(i)}>Edit</button>
+                                        <button class="search-button-edit" type="button" onClick={() => this.edit(i)}>Edit</button>
                                     </td>
                                 </tr>
                             )})
