@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './styles.css';
 
 export default class Index
     extends React.Component
@@ -69,39 +70,43 @@ export default class Index
     render = () => {
         let saida =
             <>
-                <label>ID: </label>
-                <br />  
-                <input type="text" value={this.state.id} onChange={(e) => this.setState({ id: e.target.value })}/>
-                <br />
-                <label>Task: </label>
-                <br />
-                <input type="text" value={this.state.task} onChange={(e) => this.setState({ task: e.target.value })}/>
-                <button type="button" onClick={() => this.add()}>Add</button>
-                
-                <br />
-                <br />
-                <label>Search: </label>
-                <br />
-                <input type="text" value={this.state.filter} onChange={(e) => this.setState({ filter: e.target.value })}/>
-                <button type="button" onClick={() => this.search()}>Search</button>
+                <div class="main-box">
+                    <h1>React - AllList PLUS</h1>
+                    <div class="form">
+                        <label>ID </label>
+                        <br />  
+                        <input type="text" value={this.state.id} onChange={(e) => this.setState({ id: e.target.value })}/>
+                        <br />
+                        <label>Task </label>
+                        <br />
+                        <input type="text" value={this.state.task} onChange={(e) => this.setState({ task: e.target.value })}/>
+                        <button type="button" onClick={() => this.add()}>Add</button>
+                    </div>
+                    <br />
+                    <br />
+                    <label>Search </label>
+                    <br />
+                    <input type="text" value={this.state.filter} onChange={(e) => this.setState({ filter: e.target.value })}/>
+                    <button type="button" onClick={() => this.search()}>Search</button>
 
-                <br />
-                <br />
-                <table>
-                    {
-                        this.state.tasks.map(i => { return (
-                            <tr>
-                                <td>{i}</td>
-                                <td>
-                                    <button type="button" onClick={() => this.delete(i)}>Delete</button>
-                                </td>
-                                <td>
-                                    <button type="button" onClick={() => this.edit(i)}>Edit</button>
-                                </td>
-                            </tr>
-                        )})
-                    }
-                </table>
+                    <br />
+                    <br />
+                    <table>
+                        {
+                            this.state.tasks.map(i => { return (
+                                <tr>
+                                    <td>{i}</td>
+                                    <td>
+                                        <button type="button" onClick={() => this.delete(i)}>Delete</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" onClick={() => this.edit(i)}>Edit</button>
+                                    </td>
+                                </tr>
+                            )})
+                        }
+                    </table>
+                </div>
             </>
         return saida;
     }

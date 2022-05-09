@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AllListPlus\\AllListPlus\\AllListPlus.csproj": {}
+    "D:\\GitHub\\All-List-PLUS-ReactJS\\AllListPlus\\AllListPlus.csproj": {}
   },
   "projects": {
-    "D:\\AllListPlus\\AllListPlus\\AllListPlus.csproj": {
+    "D:\\GitHub\\All-List-PLUS-ReactJS\\AllListPlus\\AllListPlus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AllListPlus\\AllListPlus\\AllListPlus.csproj",
+        "projectUniqueName": "D:\\GitHub\\All-List-PLUS-ReactJS\\AllListPlus\\AllListPlus.csproj",
         "projectName": "AllListPlus",
-        "projectPath": "D:\\AllListPlus\\AllListPlus\\AllListPlus.csproj",
+        "projectPath": "D:\\GitHub\\All-List-PLUS-ReactJS\\AllListPlus\\AllListPlus.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\AllListPlus\\AllListPlus\\obj\\",
+        "outputPath": "D:\\GitHub\\All-List-PLUS-ReactJS\\AllListPlus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",

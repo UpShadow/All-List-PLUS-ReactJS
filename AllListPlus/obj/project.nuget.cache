@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lG+5HM9LXQ+QnS1Gz0nisSukhO/m5kzecIq+Z+S9rivqIPKkwviwmkWMC+fw1fmnaGAx6d5V7Pb9fS3AGByiFg==",
+  "dgSpecHash": "stByzf9a55Go4CTbe6mvYsI2gc1hjrQ8voXt6yZwslinvbjbirtA/q7Vv3ue+OcfXJwg56x2ZjljMQ1y2p5STg==",
   "success": true,
-  "projectFilePath": "D:\\AllListPlus\\AllListPlus\\AllListPlus.csproj",
+  "projectFilePath": "D:\\GitHub\\All-List-PLUS-ReactJS\\AllListPlus\\AllListPlus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
