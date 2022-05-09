@@ -39,10 +39,12 @@ label {
     width: 45em;
     border-style: solid;
     border-radius: 20px;
+    border-color: white;
     box-shadow: 4px 5px 4px rgba(255, 255, 255, 0.25);
     margin-top: 20%;
     margin-left: 22%;
     padding-top: 30px;
+    
 }
 
 .form {
