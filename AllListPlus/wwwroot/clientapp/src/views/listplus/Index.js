@@ -90,7 +90,7 @@ export default class Index
                     {         
                         this.state.tasks.map(i => { return (
                             <tr>
-                                <td class="search-result">{i}</td>
+                                <td>{i}</td>
                                 <div class="search-buttons">
                                     <td>
                                         <button class="search-button-delete" type="button" onClick={() => this.delete(i)}>Delete</button>
