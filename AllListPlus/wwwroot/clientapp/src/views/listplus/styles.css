@@ -37,10 +37,9 @@ label {
     align-content: center;
     flex-wrap: wrap;
     height: 22em;
-    width: 45em;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: white;
+    width: 45em;    
+    border: 0.4px solid white;
+    border-radius: 15px;
     box-shadow: 4px 5px 4px rgba(255, 255, 255, 0.25);
     margin-top: 20%;
     margin-left: 22%;
@@ -81,4 +80,27 @@ button-style:houver {
 .search-input {
     width: 100%;
     margin: 8px 0;
+}
+
+button {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    transition: 300ms;
+}
+
+.button-add {
+    padding: 5px 25px;
+}
+
+button:hover {
+    background-color: #47ad47;
+}
+
+.search-button-delete:hover {
+    background-color: rgb(203, 47, 47);
+}
+
+.search-button-edit:hover {
+    background-color: rgb(38, 38, 206);
 }
