@@ -14,6 +14,7 @@ body {
     width: 1920;
     height: 1080;
     background: rgba(8,7,12,255);
+
 }
 
 h1 {
@@ -26,7 +27,7 @@ label {
     color: white;
 }
 
-.task-search {
+td {
     color: white;
 }
 
@@ -37,14 +38,13 @@ label {
     align-content: center;
     flex-wrap: wrap;
     height: 22em;
-    width: 45em;    
+    width: 45em; 
+    margin: 0 auto;
     border: 0.4px solid white;
     border-radius: 15px;
     box-shadow: 4px 5px 4px rgba(255, 255, 255, 0.25);
-    margin-top: 20%;
-    margin-left: 22%;
+    margin-top: 15%;
     padding-top: 30px;
-    
 }
 
 .form {
@@ -74,7 +74,15 @@ button-style:houver {
 .list-search {
     display: flex;
     flex-direction: column;
-    
+    align-items: space-around;
+    height: 500px;
+    padding-top: 3%;
+    padding-left: 28%;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
 }
 
 .search-input {
